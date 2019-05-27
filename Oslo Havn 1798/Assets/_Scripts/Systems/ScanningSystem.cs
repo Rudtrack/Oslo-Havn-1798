@@ -50,7 +50,7 @@ public class ScanningSystem : MonoBehaviour
         {
             yield return new WaitForSeconds(seconds);
 
-            // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
+            // do the reading
             try
             {
                 IBarcodeReader barcodeReader = new BarcodeReader();
