@@ -30,8 +30,8 @@ public class ScanningSystem : MonoBehaviour
     {
         screenRect = new Rect(0, 0, Screen.width, Screen.height);
         camTexture = new WebCamTexture();
-        camTexture.requestedHeight = Screen.height / 2;
-        camTexture.requestedWidth = Screen.width / 2;
+        camTexture.requestedHeight = Screen.height / 1;
+        camTexture.requestedWidth = Screen.width / 1;
 
         if (camTexture != null)
         {
@@ -129,5 +129,10 @@ public class ScanningSystem : MonoBehaviour
     private void ReactivateScanning()
     {
         scanned = false;
+    }
+
+    public void StopCam()
+    {
+        camTexture.Stop();
     }
 }
