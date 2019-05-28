@@ -40,7 +40,7 @@ public class ScanningSystem : MonoBehaviour
             rend.material.mainTexture = camTexture;
         }
 
-        coroutine = ScanCam(0.1f);
+        coroutine = ScanCam(0.5f);
         StartCoroutine(coroutine);
     }
 

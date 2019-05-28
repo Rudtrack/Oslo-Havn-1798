@@ -11,11 +11,13 @@ public class UI_Manager : MonoBehaviour {
     public Canvas LargeMap;
     public Canvas Objective;
 
-
+    public GameObject qrButton;
+    public GameObject arButton;
 
     public GameObject Passport;
 
     private Passport passportScript;
+    private bool cameraChoice = false;
 
     private void Awake()
     {
@@ -24,6 +26,12 @@ public class UI_Manager : MonoBehaviour {
         Objective.GetComponent<Canvas>().enabled = false;*/
 
         passportScript = GetComponent<Passport>();
+    }
+
+    private void Start()
+    {
+        qrButton.SetActive(false);
+        arButton.SetActive(false);
     }
 
     //Click on map to enlarge it
@@ -49,9 +57,30 @@ public class UI_Manager : MonoBehaviour {
         Objective.GetComponent<Canvas>().enabled = true;
     }
 
-    public void ActivateScanner()
+    public void ActivateCamera()
     {
-        SceneManager.LoadScene(0);
+        if(cameraChoice == false)
+        {
+            qrButton.SetActive(true);
+            arButton.SetActive(true);
+            cameraChoice = true;
+        }
+        else
+        {
+            qrButton.SetActive(false);
+            arButton.SetActive(false);
+            cameraChoice = false;
+        }
+    }
+
+    public void ActivateQR()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ActivateAR()
+    {
+        //Load the correct scene
     }
 
     public void ActivatePassport()
