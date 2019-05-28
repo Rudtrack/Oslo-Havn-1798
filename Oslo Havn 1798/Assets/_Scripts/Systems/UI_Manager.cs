@@ -97,7 +97,7 @@ public class UI_Manager : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("FishCompleted") == 1)
         {
-            passportScript.SearchStampList();
+            //passportScript.SearchStampList();
         }
     }
 

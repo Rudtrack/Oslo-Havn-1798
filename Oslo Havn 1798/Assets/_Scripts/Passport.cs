@@ -6,20 +6,20 @@ using UnityEngine.UI;
 public class Passport : MonoBehaviour
 {
     public GameObject passport;
-    private GameObject[] stamps;
+    //private GameObject[] stamps;
 
     //public Image[] stampImages;
 
     private void Awake()
     {
-        stamps = GameObject.FindGameObjectsWithTag("Stamp");
+        //stamps = GameObject.FindGameObjectsWithTag("Stamp");
     }
 
     private void Start()
     {
-        SearchStampList();
+        //SearchStampList();
 
-        passport.SetActive(false);
+        //passport.SetActive(false);
     }
 
     private void Update()
@@ -35,7 +35,7 @@ public class Passport : MonoBehaviour
         }
     }
 
-    public void SearchStampList()
+    /*public void SearchStampList()
     {
         foreach (GameObject stamp in stamps)
         {
@@ -53,7 +53,7 @@ public class Passport : MonoBehaviour
                 stamp.SetActive(true);
             }
         }
-    }
+    }*/
 
     public void FishMarketCompleted()
     {
