@@ -14,7 +14,8 @@ public class UI_Manager : MonoBehaviour {
     public GameObject qrButton;
     public GameObject arButton;
 
-    public GameObject Passport;
+    public GameObject FishInfoBook;
+    public GameObject TollInfoBook;
 
     private Passport passportScript;
     private bool cameraChoice = false;
@@ -83,21 +84,32 @@ public class UI_Manager : MonoBehaviour {
         //Load the correct scene
     }
 
-    public void ActivatePassport()
+    public void ActivateFishMarket()
     {
-        if(Passport.activeInHierarchy == true)
+        if(FishInfoBook.activeInHierarchy == true)
         {
-            Passport.SetActive(false);
+            FishInfoBook.SetActive(false);
         }
         else
         {
-            Passport.SetActive(true);
+            FishInfoBook.SetActive(true);
         }
 
-
-        if(PlayerPrefs.GetInt("FishCompleted") == 1)
+        if (PlayerPrefs.GetInt("FishCompleted") == 1)
         {
             passportScript.SearchStampList();
+        }
+    }
+
+    public void ActivateToll()
+    {
+        if (TollInfoBook.activeInHierarchy == true)
+        {
+            TollInfoBook.SetActive(false);
+        }
+        else
+        {
+            TollInfoBook.SetActive(true);
         }
     }
     
