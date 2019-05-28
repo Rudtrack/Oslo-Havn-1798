@@ -665,7 +665,8 @@ MonoBehaviour:
   Objective: {fileID: 0}
   qrButton: {fileID: 0}
   arButton: {fileID: 0}
-  Passport: {fileID: 0}
+  FishInfoBook: {fileID: 0}
+  TollInfoBook: {fileID: 0}
 --- !u!114 &513749818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1406,6 +1407,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.60784316
       objectReference: {fileID: 0}
+    - target: {fileID: 109519475, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 109519477, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_Color.r
       value: 1
@@ -1421,6 +1426,10 @@ PrefabInstance:
     - target: {fileID: 109519477, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034625488, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
