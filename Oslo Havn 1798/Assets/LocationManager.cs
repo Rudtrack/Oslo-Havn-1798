@@ -13,10 +13,11 @@ public class LocationManager : MonoBehaviour
     [TextArea(5, 15)]
     public string FishWelcomeText;
 
+    public AudioManager audioManager;
+
 
     public bool isPaused;
 
-    public 
 
     void Start()
     {
@@ -48,6 +49,8 @@ public class LocationManager : MonoBehaviour
         WelcomePanel.SetActive(true);
         WelcomeText.text = FishWelcomeText;
         LocationTextFish.text = "OSLO FISH MARKET";
+
+        audioManager.FisketorvetVoiceOver();
     }
 
     public void DisableFishWelcome()
@@ -55,5 +58,8 @@ public class LocationManager : MonoBehaviour
         WelcomePanel.SetActive(false);
         WelcomeText.text = "";
         LocationTextFish.text = "";
+
+        audioManager.fisketorvetWelcomeVoice.Stop();
+        audioManager.music.volume = 1f;
     }
 }

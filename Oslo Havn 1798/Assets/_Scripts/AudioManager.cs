@@ -8,16 +8,25 @@ public class AudioManager : MonoBehaviour {
 
     public AudioSource spawnEffectSound;
 
-	// Use this for initialization
-	void Start ()
+    public AudioSource fisketorvetWelcomeVoice;
+
+
+    // Use this for initialization
+    void Start ()
     {
         music.Play();
-        Invoke("SpawnEffectSound", 2f); 
+        Invoke("SpawnEffectSound", 2f);
     }
 
 
     void SpawnEffectSound()
     {
         spawnEffectSound.Play();
+    }
+
+    public void FisketorvetVoiceOver()
+    {
+       music.volume = 0.2f;
+       fisketorvetWelcomeVoice.Play();
     }
 }
