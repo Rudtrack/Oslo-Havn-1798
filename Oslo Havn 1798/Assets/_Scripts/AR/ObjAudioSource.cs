@@ -4,22 +4,34 @@ using UnityEngine;
 
 public class ObjAudioSource : MonoBehaviour
 {
+    /// <summary>
+    /// Inneholder lydfiler og funksjoner til de. Blir referert til direkte i 
+    ///  animasjonslipp via Events. 
+    ///  
+    /// Har noen manuelle knapper for å tvinge inn visse states i Audio Animatoren, 
+    ///   men dette er kun for testing purposes. 
+    /// </summary>
+    
+    
     //  Lydfiler
     public AudioClip S1;
     public AudioClip S2;
     public AudioClip S3;
     public AudioClip S4;
     public AudioClip S5;
-    public AudioClip Annoyed;
+    //public AudioClip Annoyed1;
+    //public AudioClip Annoyed2;
+    public AudioClip[] Annoyed;
     public AudioClip Goodbye;
-    public AudioClip Continue;
+    public AudioClip[] Continue;
     public AudioClip Finished;
     public AudioClip Idle;
 
 
     private Animator anim;
     private AudioSource Lyd;
-
+    
+    
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
@@ -51,6 +63,8 @@ public class ObjAudioSource : MonoBehaviour
         {
             anim.SetTrigger("T_Goodbye");
         }
+
+        
     }
 
     public void AuS1()
@@ -81,7 +95,8 @@ public class ObjAudioSource : MonoBehaviour
     }
     public void AuAnnoyed()
     {
-        Lyd.clip = Annoyed;
+        //Lyd.clip = Annoyed;
+        Lyd.clip = Annoyed[Random.Range(0, Annoyed.Length)];
         Lyd.Play();
     }
     public void AuGoodbye()
@@ -91,7 +106,8 @@ public class ObjAudioSource : MonoBehaviour
     }
     public void AuContinue()
     {
-        Lyd.clip = Continue;
+        //Lyd.clip = Continue;
+        Lyd.clip = Continue[Random.Range(0, Continue.Length)];
         Lyd.Play();
     }
     public void AuFinished()

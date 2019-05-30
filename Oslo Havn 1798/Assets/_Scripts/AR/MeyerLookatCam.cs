@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class MeyerLookatCam : MonoBehaviour
 {
+    /// <summary>
+    /// Rekke float verdier som blir brukt i [public void OnAnimatorIK]
+    ///  Basert på bools fra [CamPosCollision] så blir de ulike float 
+    ///  verdiene lerpet fram og tilbake. 
+    /// </summary>
+
+
     private Animator anim;
     public Transform lookAt;
 

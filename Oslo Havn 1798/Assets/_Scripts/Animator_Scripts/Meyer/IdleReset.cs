@@ -13,6 +13,8 @@ public class IdleReset : StateMachineBehaviour
     {
         animator.ResetTrigger(Triggers[0]);
         animator.ResetTrigger(Triggers[1]);
+        animator.ResetTrigger(Triggers[2]);
+        animator.ResetTrigger(Triggers[3]);
 
         animator.SetBool(Bools[0], false);
         animator.SetBool(Bools[1], false);

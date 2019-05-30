@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class CamPosCollision : MonoBehaviour
 {
+    /// <summary>
+    /// Scriptet på [ObjCamPosition]. Sjekker hvor kameraet er til hver tid
+    ///  og hva det kolliderer med. En rekke bools her blir skrudd av og på
+    ///  basert på collisions, og blir referert til i [MeyerLookAtCam]. 
+    ///
+    /// Har også noen direkte SetTriggers til Meyer sin animator. 
+    ///         (Turn, vink, angry & happy)
+    /// </summary>
+
 
 
     //Collision Bools
@@ -28,6 +37,10 @@ public class CamPosCollision : MonoBehaviour
     private GameObject LookPath;
     private bool B_LookPath = true;
 
+    //      MiniManager
+    private GameObject MiniManObj;
+    private Animator MiniManAnim;
+
     public void Start()
     {
         Meyer = GameObject.FindGameObjectWithTag("P_Meyer");
@@ -37,6 +50,9 @@ public class CamPosCollision : MonoBehaviour
         AudiAnim = AudiObj.GetComponent<Animator>();
 
         LookPath = GameObject.FindGameObjectWithTag("Cam_LookPath");
+
+        MiniManObj = GameObject.FindGameObjectWithTag("MiniManager");
+        MiniManAnim = MiniManObj.GetComponent<Animator>();
     }
 
     public void Update()
@@ -127,7 +143,8 @@ public class CamPosCollision : MonoBehaviour
             ///     Audiotrigger for at brukeren går out of bounds
             //AudiAnim.SetTrigger("T_Goodbye");
 
-            
+            ///     MiniManager
+            MiniManAnim.SetBool("B_Outside", false);
         }
 
     }
@@ -141,6 +158,9 @@ public class CamPosCollision : MonoBehaviour
             ///     Hvis kameraet er inne i MasterTriggeren så vil ikke Meyer vinke, 
             ///     og gå tilbake til idle fra Hold 3 i animatoren 
             MeyerAnim.SetBool("B_Wave", false);
+
+            ///     MiniManager
+            MiniManAnim.SetBool("B_Outside", true);
         }
         
         //Holder seg inni EyeCollider
@@ -175,7 +195,7 @@ public class CamPosCollision : MonoBehaviour
         if (col.gameObject.tag == "TAG_ChestIK")
         {
             B_ChestIk = true;
-            Debug.Log("Chest");
+           // Debug.Log("Chest");
         }
 
         ///-----------------------------------------------------------------------

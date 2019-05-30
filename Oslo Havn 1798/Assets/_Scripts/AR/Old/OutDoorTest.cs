@@ -35,7 +35,7 @@ public class OutDoorTest : MonoBehaviour {
     public void OnMouseDown()
     {
         
-        Debug.Log("!!!Door!!!");
+        //Debug.Log("!!!Door!!!");
     }
 
     public void OpenDoor()
