@@ -81,7 +81,7 @@ public class UI_Manager : MonoBehaviour {
 
     public void ActivateAR()
     {
-        //Load the correct scene
+        SceneManager.LoadScene(3);
     }
 
     public void ActivateFishMarket()
