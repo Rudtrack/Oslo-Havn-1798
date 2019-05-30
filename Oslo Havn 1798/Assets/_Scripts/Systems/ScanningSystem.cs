@@ -30,8 +30,8 @@ public class ScanningSystem : MonoBehaviour
     {
         screenRect = new Rect(0, 0, Screen.width, Screen.height);
         camTexture = new WebCamTexture();
-        camTexture.requestedHeight = Screen.height / 1;
-        camTexture.requestedWidth = Screen.width / 1;
+        camTexture.requestedHeight = Screen.height / 2;
+        camTexture.requestedWidth = Screen.width / 2;
 
         if (camTexture != null)
         {
