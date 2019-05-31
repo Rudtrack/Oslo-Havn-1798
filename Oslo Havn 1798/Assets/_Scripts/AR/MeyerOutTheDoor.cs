@@ -66,7 +66,7 @@ public class MeyerOutTheDoor : MonoBehaviour
     /// Floats for lerping
     //public float LerpTime = 0.1f;
     // Adjust the speed for the application.
-    private float speed = 0.4f;
+    private float speed = 2f;
     private float rotSpeed = 5.0f;
 
 

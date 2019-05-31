@@ -13,6 +13,7 @@ public class MiniManagerScr : MonoBehaviour
     /// </summary>
 
     private GameObject MasterOnCam;
+    private GameObject EyeContact;
 
     private GameObject MeyerObj;
     private Animator MeyerAnim;
@@ -25,6 +26,7 @@ public class MiniManagerScr : MonoBehaviour
     public void Start()
     {
         MasterOnCam = GameObject.FindGameObjectWithTag("TAG_MasterPos-1");
+        EyeContact = GameObject.FindGameObjectWithTag("EyeContact");
         MeyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
         MeyerAnim = MeyerObj.GetComponent<Animator>();
         meyeroutthedoor = MeyerObj.GetComponent<MeyerOutTheDoor>();
@@ -40,11 +42,13 @@ public class MiniManagerScr : MonoBehaviour
     public void DisableMaster()
     {
         MasterOnCam.SetActive(false);
+        EyeContact.SetActive(false);
         Debug.Log("MasterDisabled(Inside)");
     }
     public void EnableMaster()
     {
         MasterOnCam.SetActive(true);
+        EyeContact.SetActive(true);
         //Debug.Log("MasterEnabled(Outside)");
     }
 
