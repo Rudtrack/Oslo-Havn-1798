@@ -81,7 +81,7 @@ public class UI_Manager : MonoBehaviour {
 
     public void ActivateAR()
     {
-        //Load the correct scene
+        SceneManager.LoadScene(3);
     }
 
     public void ActivateFishMarket()
@@ -117,7 +117,7 @@ public class UI_Manager : MonoBehaviour {
 
     public void Objective0()
     {
-        if(PlayerPrefs.GetInt("QR1_Status") == 0 || PlayerPrefs.HasKey("QR1_Status"))
+        if(PlayerPrefs.GetInt("QR1_Status") == 0 || PlayerPrefs.HasKey("QR1_Status") == false)
         {
             Application.OpenURL("https://www.google.com/maps/place/R%C3%A5dhusgata,+0152+Oslo/@59.9083507,10.7457996,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x46416e887dfe6ab9:0x7bcb4671a0a08997!2sR%C3%A5dhusgata,+Oslo!3b1!8m2!3d59.9096701!4d10.7418397!3m4!1s0x46416e896c35c6ad:0xadf303d4d33d6972!8m2!3d59.9083507!4d10.7473472");
         }
