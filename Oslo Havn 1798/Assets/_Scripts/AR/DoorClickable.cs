@@ -13,7 +13,7 @@ public class DoorClickable : MonoBehaviour
 
     private Animator MeyerAnim;
     private GameObject MeyerObj;
-
+    /*
     public void Start()
     {
         MeyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
@@ -24,4 +24,5 @@ public class DoorClickable : MonoBehaviour
     {
         MeyerAnim.SetTrigger("T_OpenDoor");
     }
+    */
 }
