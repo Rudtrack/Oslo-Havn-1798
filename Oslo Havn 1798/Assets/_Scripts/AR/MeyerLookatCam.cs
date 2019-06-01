@@ -12,7 +12,7 @@ public class MeyerLookatCam : MonoBehaviour
 
 
     private Animator anim;
-    public Transform lookAt;
+    private Transform lookAt;
 
     public float F_HeadIK = 0;
     public float F_ChestIK = 0;
@@ -37,6 +37,7 @@ public class MeyerLookatCam : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         lookAtObj = GameObject.FindGameObjectWithTag("LookAt");
+        lookAt = lookAtObj.GetComponent<Transform>();
         camposcollision = lookAtObj.GetComponent<CamPosCollision>();
     }
 

@@ -5,22 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/_InUse/Map Landing Page.unity
     guid: 2fc78951130df8b4eb7622a99fa1aaf7
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/_InUse/Scanning.unity
     guid: 82d82ef0b87f15a4d88dcec7c36f5042
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/_InUse/Objective 0.unity
     guid: 019fd8ee933b4dc4199e4ae4f1823f4f
-  - enabled: 1
-    path: Assets/_Scenes/_InUse/PeterMeyer2.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/_Scenes/Objective 1.unity
     guid: 1c6743bf94cb0a94c9c15808e22a6310
   - enabled: 1
-    path: Assets/_Scenes/PeterMeyer2.unity
+    path: Assets/_Scenes/_InUse/PeterMeyer2.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

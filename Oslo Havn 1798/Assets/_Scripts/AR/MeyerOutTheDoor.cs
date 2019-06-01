@@ -53,11 +53,11 @@ public class MeyerOutTheDoor : MonoBehaviour
     private Vector3 V3PosMeyer_2;
     private GameObject ObjRotMeyer_2;
     private Vector3 V3RotMeyer_2;
-
+    /*
     public Transform TranRotMeyer1;
     public Transform TranRotMeyer2;
     public Transform TranRotMeyer3;
-
+    */
     ///     MiniManager
     private GameObject MiniManObj;
     private Animator MiniManAnim;

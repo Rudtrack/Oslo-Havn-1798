@@ -11,11 +11,12 @@ public class MeyerDoorTrigger : MonoBehaviour
     /// </summary>
 
     private Animator DoorAnim;
-    public GameObject DoorObj;
+    private GameObject DoorObj;
 
 
     void Start()
     {
+        DoorObj = GameObject.FindGameObjectWithTag("Door+Room");
         DoorAnim = DoorObj.GetComponent<Animator>();
     }
 

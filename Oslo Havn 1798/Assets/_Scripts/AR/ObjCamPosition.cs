@@ -9,7 +9,8 @@ public class ObjCamPosition : MonoBehaviour
 
     private Vector3 newPosition;
     public Vector3 VcamPosition;
-    public Transform camPosition;
+    private GameObject arCamera;
+    private Transform camPosition;
 
     public bool onCam = true;
 
@@ -18,7 +19,8 @@ public class ObjCamPosition : MonoBehaviour
     void Start()
     {
         newPosition = transform.localPosition;
-        
+        arCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        camPosition = arCamera.GetComponent<Transform>();
     }
 
     void Update()

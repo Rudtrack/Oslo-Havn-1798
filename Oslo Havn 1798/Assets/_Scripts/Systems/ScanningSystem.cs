@@ -30,8 +30,8 @@ public class ScanningSystem : MonoBehaviour
     {
         screenRect = new Rect(0, 0, Screen.width, Screen.height);
         camTexture = new WebCamTexture();
-        camTexture.requestedHeight = Screen.height / 2;
-        camTexture.requestedWidth = Screen.width / 2;
+        camTexture.requestedHeight = Screen.height / 1;
+        camTexture.requestedWidth = Screen.width / 1;
 
         if (camTexture != null)
         {
@@ -71,27 +71,27 @@ public class ScanningSystem : MonoBehaviour
                     Invoke("ReactivateScanning", 1f);
                     Debug.Log(sceneNumber);
 
-                    if (sceneNumber == 2)
+                    if (sceneNumber == 1)
                     {
                         PlayerPrefs.SetInt("QR1_Status", 1);
                     }
 
-                    if (sceneNumber == 3)
+                    if (sceneNumber == 2)
                     {
                         PlayerPrefs.SetInt("QR2_Status", 1);
                     }
 
-                    if (sceneNumber == 4)
+                    if (sceneNumber == 3)
                     {
                         PlayerPrefs.SetInt("QR3_Status", 1);
                     }
 
-                    if (sceneNumber == 5)
+                    if (sceneNumber == 4)
                     {
                         PlayerPrefs.SetInt("QR4_Status", 1);
                     }
 
-                    if (sceneNumber == 6)
+                    if (sceneNumber == 5)
                     {
                         PlayerPrefs.SetInt("QR5_Status", 1);
                     }

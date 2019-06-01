@@ -69,12 +69,12 @@ public class CamPosCollision : MonoBehaviour
         
         
         //Setter B_EyeIk = true basert på B_EyeOnly
-        if (B_EyeOnly == true)
+        /*if (B_EyeOnly == true)
         {
             B_EyeIk = true;
             B_HeadnEye = false;
             B_ChestIk = false;
-        }
+        }*/
         
 
         //Setter B_HeadIk = true eller false basert på B_HeadnEye
@@ -112,11 +112,11 @@ public class CamPosCollision : MonoBehaviour
     public void OnTriggerExit(Collider col)
     {
         // Forlater TAG_EyeIK og setter B_EyeOnly til false
-        if (col.gameObject.tag == "TAG_EyeIK")
+        /*if (col.gameObject.tag == "TAG_EyeIK")
         {
             Debug.Log("NOT");
             B_EyeOnly = false;
-        }
+        }*/
 
         // Forlater TAG_HeadIK og setter B_HeadnEye til false
         if (col.gameObject.tag == "TAG_HeadIK" && B_Master == true)
@@ -164,7 +164,7 @@ public class CamPosCollision : MonoBehaviour
         }
         
         //Holder seg inni EyeCollider
-        if (col.gameObject.tag == "TAG_EyeIK")
+        /*if (col.gameObject.tag == "TAG_EyeIK")
         {
             //Debug.Log("Eyes");
             //B_EyeIk = true;
@@ -176,10 +176,10 @@ public class CamPosCollision : MonoBehaviour
                 B_HeadnEye = false;
             }
 
-        }
+        }*/
 
         //Ute av EyeCollider og får setter HeadIK til true
-        if (col.gameObject.tag == "TAG_HeadIK" && B_EyeOnly == false)
+        if (col.gameObject.tag == "TAG_HeadIK" /*&& B_EyeOnly == false*/)
         {
             //Debug.Log("Head");
             //B_HeadIk = true;
