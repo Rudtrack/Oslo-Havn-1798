@@ -1007,6 +1007,7 @@ MonoBehaviour:
           the fjord, then sell it here until we are sold out. This year has been a
           good fishing year, and we usually sell out all our goods. Some sell crabs
           and lobster, while others sell imported dried fish and other local fish.
+          Are you new here?
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1036,84 +1037,11 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 26
         destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 346.72687
-        y: 1109.9141
-        width: 160
-        height: 30
-    - id: 27
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Are you new here?
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 27
-        destinationConversationID: 1
         destinationDialogueID: 28
         isConnector: 0
         priority: 2
       - originConversationID: 1
-        originDialogueID: 27
+        originDialogueID: 26
         destinationConversationID: 1
         destinationDialogueID: 35
         isConnector: 0
@@ -1127,8 +1055,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 350.46185
-        y: 1168.9641
+        x: 346.72687
+        y: 1109.9141
         width: 160
         height: 30
     - id: 28
@@ -1279,8 +1207,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 507.99048
-        y: 1327.8075
+        x: 516
+        y: 1332
         width: 160
         height: 30
     - id: 30
@@ -1452,8 +1380,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Good choice. The salted pale is amazing. I'll bet you Napoleon would
-          start a second revolution would start a second revolution if he tasted this
-          in Paris.
+          start a second revolution if he tasted this in Paris.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1574,8 +1501,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 569.79095
-        y: 882.0743
+        x: 576
+        y: 876
         width: 160
         height: 30
     - id: 34
@@ -1653,8 +1580,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 571.49457
-        y: 983.1816
+        x: 576
+        y: 996
         width: 160
         height: 30
     - id: 35
@@ -1973,7 +1900,7 @@ MonoBehaviour:
         value: The revolution has made me prosperous. The Norwegian fleet has been
           very active after Britain and France stopped trading. Since we are neutral
           in conflict, we are able to do exclusive trade with both the British and
-          the French. Perfect!
+          the French. Perfect! Are you new here?
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2003,7 +1930,13 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 39
         destinationConversationID: 1
-        destinationDialogueID: 27
+        destinationDialogueID: 35
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 39
+        destinationConversationID: 1
+        destinationDialogueID: 28
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2019,8 +1952,8 @@ MonoBehaviour:
         y: 1111.6569
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 610.9177}
-    canvasZoom: 0.3894999
+    canvasScrollPosition: {x: 87.18234, y: 875.77673}
+    canvasZoom: 0.9594996
   - id: 2
     fields:
     - title: Title
@@ -2353,7 +2286,7 @@ MonoBehaviour:
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 1.1199999
   syncInfo:
     syncActors: 0
     syncItems: 0
