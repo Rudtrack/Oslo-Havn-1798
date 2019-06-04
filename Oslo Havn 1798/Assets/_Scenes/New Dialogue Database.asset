@@ -863,7 +863,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Just exploring the harbour. How is business?
+        value: Just exploring the harbour.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -889,7 +889,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 24
+        destinationConversationID: 1
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1952,8 +1958,8 @@ MonoBehaviour:
         y: 1111.6569
         width: 160
         height: 30
-    canvasScrollPosition: {x: 87.18234, y: 875.77673}
-    canvasZoom: 0.9594996
+    canvasScrollPosition: {x: 91.78954, y: 470.14783}
+    canvasZoom: 0.4494999
   - id: 2
     fields:
     - title: Title
