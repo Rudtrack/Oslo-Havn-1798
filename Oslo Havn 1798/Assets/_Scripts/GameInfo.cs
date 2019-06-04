@@ -44,4 +44,14 @@ public class GameInfo : MonoBehaviour
             aboutUsPanel.SetActive(false);
         }
     }
+
+    public void TidvisButton()
+    {
+        Application.OpenURL("https://www.tidvis.no/");
+    }
+
+    public void OsloHavnButton()
+    {
+        Application.OpenURL("https://oslohavn1798.no/");
+    }
 }
