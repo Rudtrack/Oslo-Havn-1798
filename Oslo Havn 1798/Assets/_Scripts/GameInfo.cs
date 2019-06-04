@@ -8,7 +8,7 @@ public class GameInfo : MonoBehaviour
     public GameObject gameInfo;
     public GameObject gameInfoText;
 
-    private bool gameInfoRead = false;
+    private static bool gameInfoRead = false;
 
     private void Start()
     {

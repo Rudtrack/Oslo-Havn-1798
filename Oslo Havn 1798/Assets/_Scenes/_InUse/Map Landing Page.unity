@@ -949,7 +949,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -975,7 +975,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1299676777
 RectTransform:
@@ -1291,8 +1291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.199937, y: -5.100081}
-  m_SizeDelta: {x: 797, y: 237}
+  m_AnchoredPosition: {x: -10.199937, y: 0}
+  m_SizeDelta: {x: 1342, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1877072544
 CanvasGroup:
@@ -1326,7 +1326,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Welcome to Tidvis!
+  m_text: "To start the experience, please select one of the markers on the map. \n\nOnce
+    selected press the \"Open Maps\" button to navigate to your destination. \n\nUpon
+    reaching your location, scan the QR code located there with the scanner button
+    at the top of the screen. \n\nGood luck!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d53e9a0e65724b6478ecb05bf9e3b5b3, type: 2}
   m_sharedMaterial: {fileID: -4985639883032363413, guid: d53e9a0e65724b6478ecb05bf9e3b5b3,
@@ -1355,14 +1358,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 44.75
+  m_fontSizeBase: 45.7
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1393,15 +1396,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.1555557, w: -37.124557}
   m_textInfo:
     textComponent: {fileID: 1877072545}
-    characterCount: 18
+    characterCount: 272
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 52
+    wordCount: 47
     linkCount: 0
-    lineCount: 1
+    lineCount: 9
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1463,7 +1466,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -10.199937, y: -5.100081}
-  m_SizeDelta: {x: 1019.1, y: 713.8}
+  m_SizeDelta: {x: 1751.4, y: 1337}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927949007
 MonoBehaviour:
