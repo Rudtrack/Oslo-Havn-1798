@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CamBackButton : MonoBehaviour
+public class CameraUI : MonoBehaviour
 {
     public ScanningSystem scanningSystem;
 
@@ -11,5 +11,11 @@ public class CamBackButton : MonoBehaviour
     {
         scanningSystem.StopCam();
         SceneManager.LoadScene(0);
+    }
+
+    public void ContinueButton()
+    {
+        scanningSystem.StopCam();
+        SceneManager.LoadScene(2);
     }
 }
