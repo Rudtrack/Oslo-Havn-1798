@@ -2242,7 +2242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2034625488, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 893820580, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_AnchoredPosition.x
