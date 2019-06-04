@@ -1161,6 +1161,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4949288189917955911, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_Name
+      value: AR_All
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295976533140960957, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295976533140960957, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door+Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -2.306054e+18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 2.1175824e-22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 3.0092666e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7520339150382246131, guid: 83870a26175708149bf57afcf7fb17bd,
         type: 3}
       propertyPath: m_Size.x
@@ -1210,51 +1255,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: 0.7473843
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949288189917955911, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_Name
-      value: AR_All
-      objectReference: {fileID: 0}
-    - target: {fileID: 6295976533140960957, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6295976533140960957, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_TagString
-      value: Door+Room
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.x
-      value: -2.306054e+18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.y
-      value: 2.1175824e-22
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.z
-      value: 3.0092666e-36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942951752593529092, guid: 83870a26175708149bf57afcf7fb17bd,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.w
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5649831566329328163, guid: 83870a26175708149bf57afcf7fb17bd,
         type: 3}
@@ -1729,7 +1729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -341, y: -159.9}
+  m_AnchoredPosition: {x: -299.1, y: -187.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599015725
