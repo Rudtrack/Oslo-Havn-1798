@@ -4,21 +4,43 @@ using UnityEngine;
 
 public class IdleReset : StateMachineBehaviour
 {
-
+    public string[] setTrigger;
     public string[] Triggers;
     public string[] Bools;
     
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.ResetTrigger(Triggers[0]);
+        //animator.SetTrigger(setTrigger.Length);
+        /// Aktiverer alle setTriggers
+        for (int i = 0; i < setTrigger.Length; i++)
+        {
+            animator.SetTrigger(setTrigger[i]);
+        }
+
+        /*animator.ResetTrigger(Triggers[0]);
         animator.ResetTrigger(Triggers[1]);
         animator.ResetTrigger(Triggers[2]);
-        animator.ResetTrigger(Triggers[3]);
+        animator.ResetTrigger(Triggers[3]);*/
+        //animator.ResetTrigger(Triggers.Length);
+        ///  Resetter alle Triggers[] som er fra 0 og over.
+        for (int i = 0; i < Triggers.Length; i++)
+        {
+            animator.ResetTrigger(Triggers[i]);
+        }
 
-        animator.SetBool(Bools[0], false);
+
+
+        /*animator.SetBool(Bools[0], false);
         animator.SetBool(Bools[1], false);
-        animator.SetBool(Bools[2], false);
+        animator.SetBool(Bools[2], false*/
+        //animator.SetBool(Bools.Length, false);
+
+        /// Setter alle Bools[] til false.
+        for (int i = 0; i < Bools.Length; i++)
+        {
+            animator.SetBool(Bools[i], false);
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

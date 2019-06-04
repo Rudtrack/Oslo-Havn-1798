@@ -10,17 +10,29 @@ public class SentenceCheck : StateMachineBehaviour
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        /// Setter Bools[1] til true og alle over til false. 
         animator.SetBool(Bools[0], true);
-        animator.SetBool(Bools[1], false);
+        for (int i = 1; i < Bools.Length; i++)
+        {
+            animator.SetBool(Bools[i], false);
+        }
+        //animator.SetBool(Bools[1].Length, false);
+        /*animator.SetBool(Bools[1], false);
         animator.SetBool(Bools[2], false);
         animator.SetBool(Bools[3], false);
-        animator.SetBool(Bools[4], false);
+        animator.SetBool(Bools[4], false);*/
 
 
-        animator.ResetTrigger(Triggers[0]);
+        /*animator.ResetTrigger(Triggers[0]);
         animator.ResetTrigger(Triggers[1]);
         animator.ResetTrigger(Triggers[2]);
-        animator.ResetTrigger(Triggers[3]);
+        animator.ResetTrigger(Triggers[3]);*/
+        //animator.ResetTrigger(Triggers.Length);
+        ///  Resetter alle Triggers[] som er fra 0 og over. 
+        for (int i = 0; i < Triggers.Length; i++)
+        {
+            animator.ResetTrigger(Triggers[i]);
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

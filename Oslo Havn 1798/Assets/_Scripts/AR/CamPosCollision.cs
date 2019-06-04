@@ -194,8 +194,9 @@ public class CamPosCollision : MonoBehaviour
         // Ute av EyeCollider og HeadCollider for å sette ChestIK til true
         if (col.gameObject.tag == "TAG_ChestIK")
         {
-            B_ChestIk = true;
-           // Debug.Log("Chest");
+           //MeyerAnim.SetTrigger("T-")
+           //B_ChestIk = true; 
+           //Debug.Log("Chest"); 
         }
 
         ///-----------------------------------------------------------------------

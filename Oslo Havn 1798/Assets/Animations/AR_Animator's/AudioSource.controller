@@ -441,6 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15dd417dc568e554b87ed539641c81c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setTrigger: []
   Triggers:
   - T_Goodbye
   - T_Start-Talking
@@ -459,6 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15dd417dc568e554b87ed539641c81c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setTrigger: []
   Triggers:
   - T_Continue
   - T_Annoyed
@@ -1244,6 +1246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15dd417dc568e554b87ed539641c81c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setTrigger: []
   Triggers:
   - T_Continue
   - T_Annoyed
@@ -1400,5 +1403,5 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: -70, y: 40, z: 0}
   m_EntryPosition: {x: -70, y: -40, z: 0}
   m_ExitPosition: {x: -70, y: 0, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_ParentStateMachinePosition: {x: 50, y: -280, z: 0}
   m_DefaultState: {fileID: -7534200504071385872}

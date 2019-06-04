@@ -15,6 +15,25 @@ TagManager:
   - GyroControl
   - Intrigger
   - Stamp
+  - MeyerPos_1
+  - Door+Room
+  - MeyerPos_2
+  - P_Meyer
+  - SourceAudio
+  - EyeContact
+  - TAG_MasterPos-1
+  - MeyerRot_2
+  - MiniManager
+  - MeyerRot_1
+  - MeyerRot_3
+  - TAG_L-Turn
+  - TAG_R-Turn
+  - TAG_HeadIK
+  - TAG_ChestIK
+  - TAG_EyeIK
+  - Cam_LookPath
+  - TAG_45-L-Turn
+  - TAG_45-R-Turn
   layers:
   - Default
   - TransparentFX

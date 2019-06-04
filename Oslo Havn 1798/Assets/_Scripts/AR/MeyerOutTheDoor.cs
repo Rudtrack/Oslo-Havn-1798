@@ -70,6 +70,14 @@ public class MeyerOutTheDoor : MonoBehaviour
     private float rotSpeed = 5.0f;
 
 
+    ///  For å justere om Animator Layeret "UpperBody"
+    ///   være på eller ikke. 
+    public bool uBody = false;
+    private float ubLayer = 0f;
+    private readonly float mainIkMax = 1; // Brukes kun for "upLayer" mathf.lerp
+    private readonly float minF = 0; // Brukes kun for "upLayer" mathf.lerp
+
+
     void Start()
     {
 
@@ -98,7 +106,7 @@ public class MeyerOutTheDoor : MonoBehaviour
         float step = speed * Time.deltaTime; // calculate distance to move
 
         ///  Tester om Vector3/transform lerp fungerer ordentlig mellom de 2 posisjonene
-        if (Input.GetKey("x"))
+        /*if (Input.GetKey("x"))
         {
             //B_MeyerOut = true;
             MeyerAnim.SetTrigger("T_OpenDoor");
@@ -108,7 +116,7 @@ public class MeyerOutTheDoor : MonoBehaviour
             B_MeyerOut = false;
             //BackInside();
             MeyerAnim.SetTrigger("T_CloseDoor");
-        }
+        }*/
 
 
         // Hvis B_MeyerOut er false så skal Meyer lerpe tilbake til posisjon 2
@@ -121,11 +129,13 @@ public class MeyerOutTheDoor : MonoBehaviour
                 //Debug.Log("Inside");
                 MeyerAnim.SetBool("B_WalkBack", false);
                 MeyerAnim.SetTrigger("T_CloseDoor");
+                uBody = false;
             }
             else
             {
                // Debug.Log("Inbetween");
                 MeyerAnim.SetBool("B_WalkBack", true);
+                uBody = false;
             }
         }
         // Hvis B_MeyerOut er true, så lerper Meyer til posisjon 1
@@ -139,13 +149,41 @@ public class MeyerOutTheDoor : MonoBehaviour
                 MeyerAnim.SetBool("B_Walk", false);
                 //B_MeyerOut = false;
                 MiniManAnim.SetTrigger("T_Outside");
+                uBody = true;
             }
             else
             {
                 //Debug.Log("Inbetween");
                 MeyerAnim.SetBool("B_Walk", true);
+                uBody = false;
             }
         }
+
+        
+
+
+
+        ///  Animator UpperBody layer
+        ///   Dette er for å kunne skru upperbody layer (animator) av og på. 
+        ///    Blir true når Meyer er i position 1 
+        if (uBody == true)
+        {
+            ubLayer = Mathf.Lerp(ubLayer, mainIkMax, 0.5f);
+            if (ubLayer > 0.99f)
+            {
+                ubLayer = mainIkMax;
+            }
+        }
+        if (uBody == false)
+        {
+            ubLayer = Mathf.Lerp(ubLayer, minF, 0.5f);
+            if (ubLayer < 0.01f)
+            {
+                ubLayer = minF;
+            }
+        }
+
+        MeyerAnim.SetLayerWeight(MeyerAnim.GetLayerIndex("UpperBody"), ubLayer);
 
         /// Hvis B_MeyerTurn er true så skal det sjekkes om P-Meyer sin y-akse er 
         ///  + eller -
@@ -209,10 +247,6 @@ public class MeyerOutTheDoor : MonoBehaviour
         {
             B_MeyerTurn = false;
         }*/
-        
-
-
-
     }
 
 
