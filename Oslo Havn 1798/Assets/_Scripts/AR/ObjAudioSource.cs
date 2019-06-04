@@ -11,8 +11,8 @@ public class ObjAudioSource : MonoBehaviour
     /// Har noen manuelle knapper for å tvinge inn visse states i Audio Animatoren, 
     ///   men dette er kun for testing purposes. 
     /// </summary>
-    
-    
+
+
     //  Lydfiler
     public AudioClip S1;
     public AudioClip S2;
@@ -30,19 +30,25 @@ public class ObjAudioSource : MonoBehaviour
 
     private Animator anim;
     private AudioSource Lyd;
-    
-    
+
+    private Animator meyerAnim;
+    private GameObject meyerObj;
+
+
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         Lyd = gameObject.GetComponent<AudioSource>();
+
+        meyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
+        meyerAnim = meyerObj.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         //Starter dialogen
-        if (Input.GetKeyDown("q")){
+        /*if (Input.GetKeyDown("q")){
             //Debug.Log("QQ");
             anim.SetTrigger("T_Start-Talking");
         }
@@ -62,11 +68,20 @@ public class ObjAudioSource : MonoBehaviour
         if (Input.GetKeyDown("r"))
         {
             anim.SetTrigger("T_Goodbye");
-        }
+        }*/
 
-        
+
     }
 
+
+    public void talkAnim()
+    {
+        meyerAnim.SetBool("Jaw_Talking", true);
+    }
+    public void notalkAnim()
+    {
+        meyerAnim.SetBool("Jaw_Talking", false);
+    }
     public void AuS1()
     {
         Lyd.clip = S1;
