@@ -56,7 +56,7 @@ public class MiniManagerScr : MonoBehaviour
     {
         AudiAnim.SetTrigger("T_Start-Talking");
         // Syncer lyd med lipsync
-        //MeyerAnim.SetTrigger("Jaw_T_Start-Talking");
+        MeyerAnim.SetTrigger("Jaw_T_Start-Talking");
         MeyerAnim.SetBool("UB_isTalking", true);
         //Debug.Log("Meyer is Talking");
     }

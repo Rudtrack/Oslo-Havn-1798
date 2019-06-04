@@ -17,17 +17,11 @@ public class UI_Manager : MonoBehaviour {
     public GameObject FishInfoBook;
     public GameObject TollInfoBook;
 
-    private Passport passportScript;
+    public GameObject startButton;
+
     private bool cameraChoice = false;
 
-    private void Awake()
-    {
-        /*MainUI.GetComponent<Canvas>().enabled = true;
-        LargeMap.GetComponent<Canvas>().enabled = false;
-        Objective.GetComponent<Canvas>().enabled = false;*/
 
-        passportScript = GetComponent<Passport>();
-    }
 
     private void Start()
     {
@@ -72,6 +66,11 @@ public class UI_Manager : MonoBehaviour {
             arButton.SetActive(false);
             cameraChoice = false;
         }
+    }
+
+    public void ShowStartButton()
+    {
+        startButton.SetActive(true);
     }
 
     public void ActivateQR()

@@ -28,11 +28,11 @@ public class RealWorldSpaceManager : MonoBehaviour
     public float distance;
 
     /// change interact icon if more/less of this distance.
-    private float changeSpriteDistance = 6;
+    private float changeSpriteDistance = 5;
 
     // - - Hacky Things - - //
     public float maximumDistance = 10;
-    public float lightMulitplier = -9;
+    public float lightMulitplier = 9;
     public float lightIntensity;
 
     ///If 2 seconds have passed, don't enable this again. 
