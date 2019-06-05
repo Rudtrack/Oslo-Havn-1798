@@ -3546,9 +3546,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.9591837
+  m_ExitTime: 1
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -3567,7 +3567,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   setTrigger: []
-  Triggers: []
+  Triggers:
+  - T_OpenDoor
+  - T_CloseDoor
   Bools: []
 --- !u!1102 &6274699681458133309
 AnimatorState:
@@ -4089,6 +4091,8 @@ MonoBehaviour:
   - T_R-Turn
   - T_Wave
   - T_CloseDoor
+  - T_L-Turn45
+  - T_R-Turn45
   Bools:
   - B_Angry
   - B_Happy

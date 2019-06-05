@@ -66,7 +66,7 @@ public class MeyerOutTheDoor : MonoBehaviour
     /// Floats for lerping
     //public float LerpTime = 0.1f;
     // Adjust the speed for the application.
-    private float speed = 2f;
+    private float speed = 1f;
     private float rotSpeed = 5.0f;
 
 
@@ -78,6 +78,11 @@ public class MeyerOutTheDoor : MonoBehaviour
     private readonly float minF = 0; // Brukes kun for "upLayer" mathf.lerp
 
 
+    ///     For å skru på Ikonene på døra igjen når Meyer går inn igjen. 
+    private RealWorldSpaceManager realworldspacemanager;
+    private GameObject ObjRWSM;
+
+
     void Start()
     {
 
@@ -85,6 +90,9 @@ public class MeyerOutTheDoor : MonoBehaviour
         ObjPosMeyer_2 = GameObject.FindGameObjectWithTag("MeyerPos_2");
         ObjRotMeyer_1 = GameObject.FindGameObjectWithTag("MeyerRot_1");
         ObjRotMeyer_2 = GameObject.FindGameObjectWithTag("MeyerRot_2");
+        ObjRWSM = GameObject.FindGameObjectWithTag("RealWorldSpaceManager");
+
+        realworldspacemanager = ObjRWSM.GetComponent<RealWorldSpaceManager>();
 
         V3PosMeyer_1 = ObjPosMeyer_1.transform.position;
         V3PosMeyer_2 = ObjPosMeyer_2.transform.position;
@@ -124,7 +132,7 @@ public class MeyerOutTheDoor : MonoBehaviour
         {
             //V3Meyer = V3PosMeyer_2;
             transform.position = Vector3.MoveTowards(transform.position, V3PosMeyer_2, step);
-            if (Vector3.Distance(transform.position, V3PosMeyer_2) < 0.09f)
+            if (Vector3.Distance(transform.position, V3PosMeyer_2) < 0.13f)
             {
                 //Debug.Log("Inside");
                 MeyerAnim.SetBool("B_WalkBack", false);
@@ -143,7 +151,7 @@ public class MeyerOutTheDoor : MonoBehaviour
         {
             //V3Meyer = V3PosMeyer_1;
             transform.position = Vector3.MoveTowards(transform.position, V3PosMeyer_1, step);
-            if (Vector3.Distance(transform.position, V3PosMeyer_1) < 0.09f)
+            if (Vector3.Distance(transform.position, V3PosMeyer_1) < 0.13f)
             {
                 //Debug.Log("Outside");
                 MeyerAnim.SetBool("B_Walk", false);
@@ -265,5 +273,10 @@ public class MeyerOutTheDoor : MonoBehaviour
         {
             MeyerAnim.SetTrigger("T_CloseDoor");
         }
+    }
+
+    public void EnableDoorButtonMOTD()
+    {
+        realworldspacemanager.EnableDoorButtonRWSM();
     }
 }

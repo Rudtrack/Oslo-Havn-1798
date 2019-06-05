@@ -34,6 +34,7 @@ TagManager:
   - Cam_LookPath
   - TAG_45-L-Turn
   - TAG_45-R-Turn
+  - RealWorldSpaceManager
   layers:
   - Default
   - TransparentFX

@@ -118,4 +118,11 @@ public class RealWorldSpaceManager : MonoBehaviour
         StopCoroutine(WaitForOpen());
     }
 
+    public void EnableDoorButtonRWSM()
+    {
+        doorButton.SetActive(true);
+        buttonDestroyed = false;
+
+        imageRenderer.enabled = true;
+    }
 }

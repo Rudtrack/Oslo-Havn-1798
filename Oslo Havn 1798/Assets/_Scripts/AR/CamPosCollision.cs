@@ -211,7 +211,18 @@ public class CamPosCollision : MonoBehaviour
         {
             MeyerAnim.SetTrigger("T_R-Turn");
         }
+        //          Venstre
+        if (col.gameObject.tag == "TAG_45-L-Turn")
+        {
+            MeyerAnim.SetTrigger("T_L-Turn45");
+        }
+        //          Høyre
+        if (col.gameObject.tag == "TAG_45-R-Turn")
+        {
+            MeyerAnim.SetTrigger("T_R-Turn45");
+        }
 
+        ///------------------------------------------------------------------------
         ///
         TEnter();
     }
