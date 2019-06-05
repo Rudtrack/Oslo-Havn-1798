@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Yellow-Plaster
   m_Shader: {fileID: 4800000, guid: 3ac30505729564249973dfc428f1c8fc, type: 3}
   m_ShaderKeywords: _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEEDGETEXTURESOURCE_NONE
@@ -84,7 +85,7 @@ Material:
     - _DissolveAlphaSource: 2
     - _DissolveAlphaSourceTexturesUVSet: 0
     - _DissolveCutoff: 0
-    - _DissolveEdgeColorIntensity: 0.65
+    - _DissolveEdgeColorIntensity: 0.8
     - _DissolveEdgeDistortionSource: 0
     - _DissolveEdgeDistortionStrength: 0
     - _DissolveEdgeShape: 0
@@ -94,7 +95,7 @@ Material:
     - _DissolveEdgeTexturePhaseOffset: 0
     - _DissolveEdgeTextureReverse: 0
     - _DissolveEdgeTextureSource: 0
-    - _DissolveEdgeWidth: 0.01
+    - _DissolveEdgeWidth: 0.4
     - _DissolveGIMultiplier: 1
     - _DissolveGlobalControl: 0
     - _DissolveMainMapTiling: 1

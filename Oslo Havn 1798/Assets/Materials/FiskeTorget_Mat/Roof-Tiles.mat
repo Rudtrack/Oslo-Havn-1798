@@ -99,7 +99,7 @@ Material:
     - _DissolveEdgeTexturePhaseOffset: 0
     - _DissolveEdgeTextureReverse: 0
     - _DissolveEdgeTextureSource: 0
-    - _DissolveEdgeWidth: 0.512
+    - _DissolveEdgeWidth: 0.436
     - _DissolveGIMultiplier: 1
     - _DissolveGlobalControl: 0
     - _DissolveMainMapTiling: 1
