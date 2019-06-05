@@ -147,7 +147,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7822731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 404, y: -187}
-  m_SizeDelta: {x: 500, y: 120}
+  m_AnchoredPosition: {x: 228, y: -425}
+  m_SizeDelta: {x: 374.6, y: 89.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7822733
 MonoBehaviour:
@@ -270,7 +270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &69904420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c34ff84dfb694264daa1704fc436591f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b869a72e1e00e484e88603afd57ea501, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2159,11 +2159,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2007981617}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00001335144, y: 5.1000633}
+  m_AnchoredPosition: {x: 0.00001335144, y: -279}
   m_SizeDelta: {x: 1342, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1571611678
@@ -2198,11 +2198,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Welcome to an interactive historical experience based on Tidvis Oslo Havn
-    1798 project. The application was designed to create an interactive bridge between
-    old and new and was developed by a group of students as a school project. We are
-    under endorsement from Tidvis and the original concept is theirs. \n\nYou can
-    find more info about Tidvis and their endeavors here."
+  m_text: "Picture\n\n\n\n\nWelcome to an interactive historical experience based
+    on Tidvis Oslo Havn 1798 project. The application was designed to create an interactive
+    bridge between old and new and was developed by a group of students as a school
+    project. We are under endorsement from Tidvis and the original concept is theirs.
+    \n\nYou can find more info about Tidvis and their endeavors here."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d53e9a0e65724b6478ecb05bf9e3b5b3, type: 2}
   m_sharedMaterial: {fileID: -4985639883032363413, guid: d53e9a0e65724b6478ecb05bf9e3b5b3,
@@ -2269,15 +2269,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.1555557, w: -37.124557}
+  m_margin: {x: 235.18806, y: -470.81555, z: 225.30122, w: -37.124557}
   m_textInfo:
     textComponent: {fileID: 1571611679}
-    characterCount: 367
+    characterCount: 379
     spriteCount: 0
-    spaceCount: 62
-    wordCount: 61
+    spaceCount: 67
+    wordCount: 62
     linkCount: 0
-    lineCount: 6
+    lineCount: 15
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2852,7 +2852,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "To start the experience, please select one of the markers on the map. \n\nOnce
-    selected press the \"Open Maps\" button to navigate to your destination. \n\nUpon
+    selected, press the \"Open Maps\" button to navigate to your destination. \n\nUpon
     reaching your location, scan the QR code located there with the scanner button
     at the top of the screen. \n\nGood luck!"
   m_isRightToLeft: 0
@@ -2883,7 +2883,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 44.75
+  m_fontSize: 61.15
   m_fontSizeBase: 45.7
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2921,15 +2921,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.1555557, w: -37.124557}
+  m_margin: {x: 267.87698, y: -276.59863, z: 277.09656, w: -363.2411}
   m_textInfo:
     textComponent: {fileID: 1877072545}
-    characterCount: 272
+    characterCount: 273
     spriteCount: 0
     spaceCount: 52
     wordCount: 47
     linkCount: 0
-    lineCount: 9
+    lineCount: 14
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -3052,7 +3052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1927949006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3070,8 +3070,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.199937, y: -5.100081}
-  m_SizeDelta: {x: 1751.4, y: 1337}
+  m_AnchoredPosition: {x: 2, y: 0.029526}
+  m_SizeDelta: {x: 1087.2, y: 2616.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927949007
 MonoBehaviour:
@@ -3269,16 +3269,16 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1571611677}
-  - {fileID: 7822732}
   - {fileID: 2078354670}
+  - {fileID: 7822732}
+  - {fileID: 1571611677}
   m_Father: {fileID: 1299676777}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.199937, y: -5.100081}
-  m_SizeDelta: {x: 1751.4, y: 1337}
+  m_AnchoredPosition: {x: 1.9, y: 47}
+  m_SizeDelta: {x: 1144.6, y: 2598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2007981619
 MonoBehaviour:
@@ -3553,18 +3553,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078354669}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2066743510}
   m_Father: {fileID: 2007981617}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -388, y: -187}
-  m_SizeDelta: {x: 500, y: 120}
+  m_AnchoredPosition: {x: -227, y: -424.10013}
+  m_SizeDelta: {x: 382.2, y: 91.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2078354671
 MonoBehaviour:
