@@ -13,7 +13,7 @@ public class UI_Manager : MonoBehaviour {
 
     public GameObject menuObject;
     public GameObject hamburgerSprite;
-    public GameObject returnSprite;
+    public GameObject InfoScreen;
 
     public GameObject FishInfoBook;
     public GameObject TollInfoBook;
@@ -34,7 +34,7 @@ public class UI_Manager : MonoBehaviour {
     {
         menuObject.SetActive(false);
         hamburgerSprite.SetActive(true);
-        returnSprite.SetActive(false);
+
     }
 
     //Click on map to enlarge it
@@ -68,14 +68,12 @@ public class UI_Manager : MonoBehaviour {
         {
             menuObject.SetActive(false);
             print(cameraChoice);
-            returnSprite.SetActive(false);
             cameraChoice = true;
         }
         else
         {
             menuObject.SetActive(true);
             print(cameraChoice);
-            returnSprite.SetActive(true);
             cameraChoice = false;
 
             

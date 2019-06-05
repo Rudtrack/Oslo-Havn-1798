@@ -53,11 +53,13 @@ public class GameInfo : MonoBehaviour
 
     public void TidvisButton()
     {
+        print("isclicked tidvis");
         Application.OpenURL("https://www.tidvis.no/");
     }
 
     public void OsloHavnButton()
     {
+        print("isclicked Oslo");
         Application.OpenURL("https://oslohavn1798.no/");
     }
 }
