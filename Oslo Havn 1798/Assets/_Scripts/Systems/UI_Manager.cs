@@ -11,8 +11,9 @@ public class UI_Manager : MonoBehaviour {
     public Canvas LargeMap;
     public Canvas Objective;
 
-    public GameObject qrButton;
-    public GameObject arButton;
+    public GameObject menuObject;
+    public GameObject hamburgerSprite;
+    public GameObject returnSprite;
 
     public GameObject FishInfoBook;
     public GameObject TollInfoBook;
@@ -31,8 +32,9 @@ public class UI_Manager : MonoBehaviour {
 
     private void Start()
     {
-        qrButton.SetActive(false);
-        arButton.SetActive(false);
+        menuObject.SetActive(false);
+        hamburgerSprite.SetActive(true);
+        returnSprite.SetActive(false);
     }
 
     //Click on map to enlarge it
@@ -60,17 +62,23 @@ public class UI_Manager : MonoBehaviour {
 
     public void ActivateCamera()
     {
-        if(cameraChoice == false)
+        cameraChoice = !cameraChoice;
+
+        if (cameraChoice == false)
         {
-            qrButton.SetActive(true);
-            arButton.SetActive(true);
+            menuObject.SetActive(false);
+            print(cameraChoice);
+            returnSprite.SetActive(false);
             cameraChoice = true;
         }
         else
         {
-            qrButton.SetActive(false);
-            arButton.SetActive(false);
+            menuObject.SetActive(true);
+            print(cameraChoice);
+            returnSprite.SetActive(true);
             cameraChoice = false;
+
+            
         }
     }
 
