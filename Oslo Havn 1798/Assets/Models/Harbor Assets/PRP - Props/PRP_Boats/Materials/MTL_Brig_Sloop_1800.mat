@@ -43,11 +43,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveMap1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f4a7e7699981b2848956ec162fbe8c60, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveMap2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c1bb91de79e1d6647a47e6c5de27c6a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveMap3:
@@ -96,7 +96,7 @@ Material:
     - _DissolveEdgeTexturePhaseOffset: 0
     - _DissolveEdgeTextureReverse: 0
     - _DissolveEdgeTextureSource: 0
-    - _DissolveEdgeWidth: 0.25
+    - _DissolveEdgeWidth: 0.046
     - _DissolveGIMultiplier: 1
     - _DissolveGlobalControl: 0
     - _DissolveMainMapTiling: 1
@@ -126,7 +126,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolveEdgeColor: {r: 0, g: 1, b: 0, a: 1}
+    - _DissolveEdgeColor: {r: 0.06016379, g: 0.90985996, b: 0.9811321, a: 1}
     - _DissolveMap1_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap2_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap3_Scroll: {r: 0, g: 0, b: 0, a: 0}
