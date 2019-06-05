@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameInfo : MonoBehaviour
 {
     public GameObject gameInfo;
+    public GameObject HamburgerMenu;
     //public GameObject gameInfoText;
 
     public GameObject aboutUsPanel;
@@ -17,11 +18,13 @@ public class GameInfo : MonoBehaviour
         if(gameInfoRead == false)
         {
             gameInfo.SetActive(true);
+            HamburgerMenu.SetActive(false);
             //gameInfoText.SetActive(true);
         }
         else
         {
             gameInfo.SetActive(false);
+            HamburgerMenu.SetActive(true);
             //gameInfoText.SetActive(false);
         }
     }
@@ -30,6 +33,7 @@ public class GameInfo : MonoBehaviour
     {
         gameInfoRead = true;
         gameInfo.SetActive(false);
+        HamburgerMenu.SetActive(true);
         //gameInfoText.SetActive(false);
     }
 
@@ -38,10 +42,12 @@ public class GameInfo : MonoBehaviour
         if(aboutUsPanel.activeInHierarchy == false)
         {
             aboutUsPanel.SetActive(true);
+            HamburgerMenu.SetActive(false);
         }
         else
         {
             aboutUsPanel.SetActive(false);
+            HamburgerMenu.SetActive(true);
         }
     }
 

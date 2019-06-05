@@ -41,15 +41,6 @@ public class MoveWithFinger : MonoBehaviour
         {
             Camera.main.transform.position = Camera.main.transform.position;
         }
-    CheckPos();
-    }
-
-    public void CheckPos()
-    {
-        if(Camera.main.transform.position.x >= -28.18189f)
-        {
-
-        }
     }
 
 }
