@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 4771b31da99f9bd4c953a62316685f12
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BigPot
+    100002: CeramicPot
+    100004: Kettle
+    100006: KettleStand
+    100008: //RootNode
+    100010: Pot
+    100012: PotStand
+    100014: Standpattern
+    100016: Standpattern2
+    100018: Standpattern3
+    100020: Wallhook
+    100022: WallPot1
+    100024: WallPot2
+    400000: BigPot
+    400002: CeramicPot
+    400004: Kettle
+    400006: KettleStand
+    400008: //RootNode
+    400010: Pot
+    400012: PotStand
+    400014: Standpattern
+    400016: Standpattern2
+    400018: Standpattern3
+    400020: Wallhook
+    400022: WallPot1
+    400024: WallPot2
+    2100000: IronBlack
+    2100002: Ceramic
+    2100004: CopperPots
+    2300000: BigPot
+    2300002: CeramicPot
+    2300004: Kettle
+    2300006: KettleStand
+    2300008: Pot
+    2300010: PotStand
+    2300012: Standpattern
+    2300014: Standpattern2
+    2300016: Standpattern3
+    2300018: Wallhook
+    2300020: WallPot1
+    2300022: WallPot2
+    3300000: BigPot
+    3300002: CeramicPot
+    3300004: Kettle
+    3300006: KettleStand
+    3300008: Pot
+    3300010: PotStand
+    3300012: Standpattern
+    3300014: Standpattern2
+    3300016: Standpattern3
+    3300018: Wallhook
+    3300020: WallPot1
+    3300022: WallPot2
+    4300000: BigPot
+    4300002: CeramicPot
+    4300004: Pot
+    4300006: PotStand
+    4300008: Standpattern3
+    4300010: Standpattern2
+    4300012: Standpattern
+    4300014: Kettle
+    4300016: KettleStand
+    4300018: WallPot2
+    4300020: WallPot1
+    4300022: Wallhook
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic
+    second: {fileID: 2100000, guid: abae41b0871d39d4d99d66c68175757b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CopperPots
+    second: {fileID: 2100000, guid: abae41b0871d39d4d99d66c68175757b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IronBlack
+    second: {fileID: 2100000, guid: abae41b0871d39d4d99d66c68175757b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
