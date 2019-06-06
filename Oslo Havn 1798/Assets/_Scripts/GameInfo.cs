@@ -7,7 +7,6 @@ public class GameInfo : MonoBehaviour
 {
     public GameObject gameInfo;
     public GameObject HamburgerMenu;
-    //public GameObject gameInfoText;
 
     public GameObject aboutUsPanel;
 
@@ -19,13 +18,11 @@ public class GameInfo : MonoBehaviour
         {
             gameInfo.SetActive(true);
             HamburgerMenu.SetActive(false);
-            //gameInfoText.SetActive(true);
         }
         else
         {
             gameInfo.SetActive(false);
             HamburgerMenu.SetActive(true);
-            //gameInfoText.SetActive(false);
         }
     }
 
@@ -34,7 +31,6 @@ public class GameInfo : MonoBehaviour
         gameInfoRead = true;
         gameInfo.SetActive(false);
         HamburgerMenu.SetActive(true);
-        //gameInfoText.SetActive(false);
     }
 
     public void ViewAboutUs()
@@ -53,13 +49,11 @@ public class GameInfo : MonoBehaviour
 
     public void TidvisButton()
     {
-        print("isclicked tidvis");
         Application.OpenURL("https://www.tidvis.no/");
     }
 
     public void OsloHavnButton()
     {
-        print("isclicked Oslo");
         Application.OpenURL("https://oslohavn1798.no/");
     }
 }

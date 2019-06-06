@@ -19,7 +19,6 @@ public class UI_Manager : MonoBehaviour {
     public GameObject TollInfoBook;
 
     private Passport passportScript;
-    private bool cameraChoice = false;
 
     private void Awake()
     {
@@ -62,21 +61,14 @@ public class UI_Manager : MonoBehaviour {
 
     public void ActivateCamera()
     {
-        cameraChoice = !cameraChoice;
 
-        if (cameraChoice == false)
+        if (menuObject.activeInHierarchy == true)
         {
             menuObject.SetActive(false);
-            print(cameraChoice);
-            cameraChoice = true;
         }
         else
         {
             menuObject.SetActive(true);
-            print(cameraChoice);
-            cameraChoice = false;
-
-            
         }
     }
 
