@@ -9,6 +9,12 @@ ModelImporter:
   - first:
       74: -5405653242291790180
     second: Jaw_Not-Talking
+  - first:
+      74: -701877523992768443
+    second: Blink
+  - first:
+      74: 4064797375296291585
+    second: Eyes-Idle
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,8 +68,242 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Con_Master
+        weight: 1
+      - path: Con_Master/Con_Hip
+        weight: 1
+      - path: Con_Master/Con_Hip/Con_Chest_Look-At_Up
+        weight: 0
+      - path: Con_Master/Con_Hip/Con_Chest_Look-At_Up/Con_Head_Look-At_Up
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Con_Chest_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Con_Head_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Con_Head_Look-At/Con_Eyes_Look-Ar
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/L_Thigh
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle/L_Toe
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle/L_Toe/L_Foot_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/R_Thigh
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle/R_Toe
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle/R_Toe/R_Foot_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Hand
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Hand/L_Hand_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder/L_Con_Elbow_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder/L_Shoulder_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02/L_Fingers_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02/L_Fingers_03/L_Fingers_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02/L_Index_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02/L_Index_03/L_Index_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02/L_Thumb_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02/L_Thumb_03/L_Thumb_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Eye_Left_low
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Eye_Right_low
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw/Jaw_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Lower_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Lower_Eyelid/L_Lower_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Upper_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Upper_Eyelid/L_Upper_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Lower_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Lower_Eyelid/R_Lower_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Upper_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Upper_Eyelid/R_Upper_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Spine_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Hand
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Hand/R_Hand_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder/R_Con_Elbow_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder/R_Shoulder_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02/R_Fingers_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02/R_Fingers_03/R_Fingers_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02/R_Index_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02/R_Index_03/R_Index_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02/R_Thumb_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02/R_Thumb_03/R_Thumb_End
+        weight: 0
+      - path: Con_Master/L_Con_Foot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Con_Knee_Look-At
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Foot_Look-At
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Con_Ankle
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Con_Ankle/L_Leg_IK
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Foot_IK
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Toe_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Con_Knee_Look-At
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Foot_Look-At
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Con_Ankle
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Con_Ankle/R_Leg_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Foot_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Toe_IK
+        weight: 0
+      - path: Meyer_Parent
+        weight: 0
+      - path: Meyer_Parent/Cravatt_low
+        weight: 0
+      - path: Meyer_Parent/Face_low
+        weight: 0
+      - path: Meyer_Parent/Hand_Left_low
+        weight: 0
+      - path: Meyer_Parent/Hand_Right_low
+        weight: 0
+      - path: Meyer_Parent/Hat_low
+        weight: 0
+      - path: Meyer_Parent/Jacket_low
+        weight: 0
+      - path: Meyer_Parent/Shirt_low
+        weight: 0
+      - path: Meyer_Parent/Shoes_low
+        weight: 0
+      - path: Meyer_Parent/Socks_low
+        weight: 0
+      - path: Meyer_Parent/Teeth_low
+        weight: 0
+      - path: Meyer_Parent/Thoung_low
+        weight: 0
+      - path: Meyer_Parent/Trousers_low
+        weight: 0
+      - path: Meyer_Parent/Vest_low
+        weight: 0
+      - path: Meyer_Parent/Wigg_low
+        weight: 0
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -93,6 +333,298 @@ ModelImporter:
       events: []
       transformMask: []
       maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Blink
+      takeName: Take 001
+      internalID: -701877523992768443
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eyes-Idle
+      takeName: Take 001
+      internalID: 4064797375296291585
+      firstFrame: 12
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Con_Master
+        weight: 1
+      - path: Con_Master/Con_Hip
+        weight: 1
+      - path: Con_Master/Con_Hip/Con_Chest_Look-At_Up
+        weight: 0
+      - path: Con_Master/Con_Hip/Con_Chest_Look-At_Up/Con_Head_Look-At_Up
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Con_Chest_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Con_Head_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Con_Head_Look-At/Con_Eyes_Look-Ar
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/L_Thigh
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle/L_Toe
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/L_Thigh/L_Calve/L_Ankle/L_Toe/L_Foot_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/R_Thigh
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle/R_Toe
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/R_Thigh/R_Calve/R_Ankle/R_Toe/R_Foot_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Hand
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Hand/L_Hand_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder/L_Con_Elbow_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Con_Shoulder/L_Shoulder_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02/L_Fingers_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Fingers_01/L_Fingers_02/L_Fingers_03/L_Fingers_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02/L_Index_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Index_01/L_Index_02/L_Index_03/L_Index_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02/L_Thumb_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/L_Shoulder/L_Upper_Arm/L_Lower_Arm/L_Hand/L_Thumb_01/L_Thumb_02/L_Thumb_03/L_Thumb_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Eye_Left_low
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Eye_Right_low
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw/Jaw_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Lower_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Lower_Eyelid/L_Lower_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Upper_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/L_Upper_Eyelid/L_Upper_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Lower_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Lower_Eyelid/R_Lower_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Upper_Eyelid
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/R_Upper_Eyelid/R_Upper_Eyelid_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Spine_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Hand
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Hand/R_Hand_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder/R_Con_Elbow_Look-At
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Con_Shoulder/R_Shoulder_IK
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02/R_Fingers_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Fingers_01/R_Fingers_02/R_Fingers_03/R_Fingers_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02/R_Index_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Index_01/R_Index_02/R_Index_03/R_Index_End
+        weight: 0
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02/R_Thumb_03
+        weight: 1
+      - path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/R_Shoulder/R_Upper_Arm/R_Lower_Arm/R_Hand/R_Thumb_01/R_Thumb_02/R_Thumb_03/R_Thumb_End
+        weight: 0
+      - path: Con_Master/L_Con_Foot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Con_Knee_Look-At
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Foot_Look-At
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Con_Ankle
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Con_Ankle/L_Leg_IK
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Con_Toe/L_Foot_IK
+        weight: 0
+      - path: Con_Master/L_Con_Foot/L_Foot_L/R_Rot/L_Foot_U/D_Rot/L_Con_Tip-Foot/L_Toe_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Con_Knee_Look-At
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Foot_Look-At
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Con_Ankle
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Con_Ankle/R_Leg_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Con_Toe/R_Foot_IK
+        weight: 0
+      - path: Con_Master/R_Con_Foot/R_Foot_L/R_Rot/R_Foot_U/D_Rot/R_Con_Tip-Foot/R_Toe_IK
+        weight: 0
+      - path: Meyer_Parent
+        weight: 0
+      - path: Meyer_Parent/Cravatt_low
+        weight: 0
+      - path: Meyer_Parent/Face_low
+        weight: 0
+      - path: Meyer_Parent/Hand_Left_low
+        weight: 0
+      - path: Meyer_Parent/Hand_Right_low
+        weight: 0
+      - path: Meyer_Parent/Hat_low
+        weight: 0
+      - path: Meyer_Parent/Jacket_low
+        weight: 0
+      - path: Meyer_Parent/Shirt_low
+        weight: 0
+      - path: Meyer_Parent/Shoes_low
+        weight: 0
+      - path: Meyer_Parent/Socks_low
+        weight: 0
+      - path: Meyer_Parent/Teeth_low
+        weight: 0
+      - path: Meyer_Parent/Thoung_low
+        weight: 0
+      - path: Meyer_Parent/Trousers_low
+        weight: 0
+      - path: Meyer_Parent/Vest_low
+        weight: 0
+      - path: Meyer_Parent/Wigg_low
+        weight: 0
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     isReadable: 0

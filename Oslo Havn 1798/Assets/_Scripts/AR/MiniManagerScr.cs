@@ -18,6 +18,9 @@ public class MiniManagerScr : MonoBehaviour
     private GameObject MeyerObj;
     private Animator MeyerAnim;
     private MeyerOutTheDoor meyeroutthedoor;
+    private Transform tranMeyer;
+    private GameObject objPos2;
+    private Transform tranPos2;
 
     private GameObject AudiObj;
     private Animator AudiAnim;
@@ -30,12 +33,20 @@ public class MiniManagerScr : MonoBehaviour
         MeyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
         MeyerAnim = MeyerObj.GetComponent<Animator>();
         meyeroutthedoor = MeyerObj.GetComponent<MeyerOutTheDoor>();
+        tranMeyer = MeyerObj.GetComponent<Transform>();
+
+        objPos2 = GameObject.FindGameObjectWithTag("MeyerPos_2");
+        tranPos2 = objPos2.GetComponent<Transform>();
 
         AudiObj = GameObject.FindGameObjectWithTag("SourceAudio");
         AudiAnim = AudiObj.GetComponent<Animator>();
         
     }
 
+    public void AfterFaded()
+    {
+        tranMeyer.transform.position = tranPos2.transform.position; 
+    }
 
     ///     Funksjoner som skrur [Master_OnCam] av og på. 
     ///         Brukes i Animatoren. 

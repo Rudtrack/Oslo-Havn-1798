@@ -34,6 +34,9 @@ public class ObjAudioSource : MonoBehaviour
     private Animator meyerAnim;
     private GameObject meyerObj;
 
+    public GameObject ObjScaling;
+    public TextButton textbutton;
+
 
     void Start()
     {
@@ -73,6 +76,11 @@ public class ObjAudioSource : MonoBehaviour
 
     }
 
+    public void ResetAll()
+    {
+        //ObjScaling.SetActive(false);
+        textbutton.meyerActive = false;
+    }
 
     public void talkAnim()
     {

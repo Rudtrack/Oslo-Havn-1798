@@ -11,18 +11,22 @@ public class DoorClickable : MonoBehaviour
     /// </summary>
 
 
-    private Animator MeyerAnim;
-    private GameObject MeyerObj;
-    /*
+    //private Animator MeyerAnim;
+    //private GameObject MeyerObj;
+    
     public void Start()
     {
-        MeyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
-        MeyerAnim = MeyerObj.GetComponent<Animator>();
+        //MeyerObj = GameObject.FindGameObjectWithTag("P_Meyer");
+        //MeyerAnim = MeyerObj.GetComponent<Animator>();
     }
 
     private void OnMouseDown()
     {
-        MeyerAnim.SetTrigger("T_OpenDoor");
+        //MeyerAnim.SetTrigger("T_OpenDoor");
     }
-    */
+    
+    public void DoorFade()
+    {
+        gameObject.SetActive(false);
+    }
 }

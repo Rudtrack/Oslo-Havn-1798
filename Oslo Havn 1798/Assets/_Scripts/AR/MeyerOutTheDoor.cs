@@ -39,6 +39,9 @@ public class MeyerOutTheDoor : MonoBehaviour
     //public GameObject MeyerObj;
     private Animator MeyerAnim;
 
+    ///      Døra
+    private Animator animRD;
+    private GameObject objRD;
 
     ///      Koordinasjonene Meyer skal følge
     /// Koordinasjonene for ute av døra
@@ -62,11 +65,13 @@ public class MeyerOutTheDoor : MonoBehaviour
     private GameObject MiniManObj;
     private Animator MiniManAnim;
 
+    public bool B_meyFade = false;
+
 
     /// Floats for lerping
     //public float LerpTime = 0.1f;
     // Adjust the speed for the application.
-    private float speed = 1f;
+    private float speed = 2f;
     private float rotSpeed = 5.0f;
 
 
@@ -82,6 +87,8 @@ public class MeyerOutTheDoor : MonoBehaviour
     private RealWorldSpaceManager realworldspacemanager;
     private GameObject ObjRWSM;
 
+    public TextButton tb;
+    
 
     void Start()
     {
@@ -91,7 +98,9 @@ public class MeyerOutTheDoor : MonoBehaviour
         ObjRotMeyer_1 = GameObject.FindGameObjectWithTag("MeyerRot_1");
         ObjRotMeyer_2 = GameObject.FindGameObjectWithTag("MeyerRot_2");
         ObjRWSM = GameObject.FindGameObjectWithTag("RealWorldSpaceManager");
+        objRD = GameObject.FindGameObjectWithTag("Door+Room");
 
+        animRD = objRD.GetComponent<Animator>();
         realworldspacemanager = ObjRWSM.GetComponent<RealWorldSpaceManager>();
 
         V3PosMeyer_1 = ObjPosMeyer_1.transform.position;
@@ -130,8 +139,11 @@ public class MeyerOutTheDoor : MonoBehaviour
         // Hvis B_MeyerOut er false så skal Meyer lerpe tilbake til posisjon 2
         if (B_MeyerOut == false)
         {
+            transform.position = V3PosMeyer_2;
+            //transform.eulerAngles = V3PosMeyer_2;
+            //B_meyFade = true;
             //V3Meyer = V3PosMeyer_2;
-            transform.position = Vector3.MoveTowards(transform.position, V3PosMeyer_2, step);
+            /*transform.position = Vector3.MoveTowards(transform.position, V3PosMeyer_2, step);
             if (Vector3.Distance(transform.position, V3PosMeyer_2) < 0.13f)
             {
                 //Debug.Log("Inside");
@@ -144,11 +156,13 @@ public class MeyerOutTheDoor : MonoBehaviour
                // Debug.Log("Inbetween");
                 MeyerAnim.SetBool("B_WalkBack", true);
                 uBody = false;
-            }
+                B_meyFade = false;
+            }*/
         }
         // Hvis B_MeyerOut er true, så lerper Meyer til posisjon 1
         if (B_MeyerOut == true)
         {
+            B_meyFade = false; 
             //V3Meyer = V3PosMeyer_1;
             transform.position = Vector3.MoveTowards(transform.position, V3PosMeyer_1, step);
             if (Vector3.Distance(transform.position, V3PosMeyer_1) < 0.13f)
@@ -158,6 +172,7 @@ public class MeyerOutTheDoor : MonoBehaviour
                 //B_MeyerOut = false;
                 MiniManAnim.SetTrigger("T_Outside");
                 uBody = true;
+                animRD.SetTrigger("T_Closing");
             }
             else
             {
@@ -257,7 +272,10 @@ public class MeyerOutTheDoor : MonoBehaviour
         }*/
     }
 
-
+    public void GoodbyeRestart()
+    {
+        tb.meyerActive = false;
+    }
 
     /// Funksjoner som blir spilt av i [Opening_Only] animasjonen. 
     ///  
