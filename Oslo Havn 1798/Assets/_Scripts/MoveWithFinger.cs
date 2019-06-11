@@ -13,11 +13,13 @@ public class MoveWithFinger : MonoBehaviour
     float maxPostY_Up = 25f;
     float maxPostY_Down = 26f;
 
+    bool move;
+    Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -25,11 +27,15 @@ public class MoveWithFinger : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
+            rb.constraints &= ~RigidbodyConstraints.FreezePositionY;
+            rb.constraints &= ~RigidbodyConstraints.FreezePositionX;
             touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
-        else
+        else if(Input.GetMouseButtonUp(0))
         {
             transform.position = transform.position;
+            rb.constraints = RigidbodyConstraints.FreezeAll;
         }
 
         if (Input.GetMouseButton(0))
@@ -43,4 +49,16 @@ public class MoveWithFinger : MonoBehaviour
         }
     }
 
+
+    private void CheckConstraints()
+    {
+        if (!move)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
 }
