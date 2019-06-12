@@ -97,7 +97,7 @@ public class ScanningSystem : MonoBehaviour
                     }
 
                     result = null;
-                    SceneManager.LoadScene(sceneNumber);
+                    SceneManager.LoadScene(sceneNumber + 1);
                 }
             }
             catch (Exception ex) { Debug.LogWarning(ex.Message); }

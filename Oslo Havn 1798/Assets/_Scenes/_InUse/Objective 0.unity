@@ -4716,7 +4716,7 @@ MonoBehaviour:
   Objective: {fileID: 0}
   menuObject: {fileID: 0}
   hamburgerSprite: {fileID: 0}
-  returnSprite: {fileID: 0}
+  InfoScreen: {fileID: 0}
   FishInfoBook: {fileID: 0}
   TollInfoBook: {fileID: 0}
 --- !u!114 &513749818
@@ -18371,7 +18371,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 707074559, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+    - target: {fileID: 32808597, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 566119185, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -18379,7 +18383,7 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 566119185, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+    - target: {fileID: 707074559, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -18594,10 +18598,6 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 32808597, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1078705220373134, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -18673,6 +18673,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1273107043}
+    - target: {fileID: 2130587667, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57abe1b556469524ea32418d75036c8a, type: 3}
 --- !u!4 &7301441278625739339
