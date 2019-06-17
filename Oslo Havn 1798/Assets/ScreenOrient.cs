@@ -1,23 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScreenOrientation : MonoBehaviour
+public class ScreenOrient : MonoBehaviour
 {
     // Start is called before the first frame update
     void Awake()
     {
         if(SceneManager.GetActiveScene().buildIndex == 2)
         {
+            Screen.autorotateToLandscapeLeft = true;
 
-        Screen.autorotateToLandscapeLeft = true;
+            Screen.autorotateToLandscapeRight = true;
 
-        Screen.autorotateToLandscapeRight = true;
+            Screen.autorotateToPortrait = false;
 
-        Screen.autorotateToPortrait = false;
+            Screen.autorotateToPortraitUpsideDown = false;
 
-        Screen.autorotateToPortraitUpsideDown = false;
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
         }
         else
         {
@@ -28,12 +27,8 @@ public class ScreenOrientation : MonoBehaviour
             Screen.autorotateToPortrait = true;
 
             Screen.autorotateToPortraitUpsideDown = true;
-        }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            Screen.orientation = ScreenOrientation.Portrait;
+        }
     }
 }

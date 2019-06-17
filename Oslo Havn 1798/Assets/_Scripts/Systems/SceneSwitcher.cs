@@ -11,7 +11,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         if(DoneTalking.convoEnded == true)
         {
-            startButton.SetActive(true);
+
         }
     }
 
