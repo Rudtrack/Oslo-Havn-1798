@@ -37,6 +37,8 @@ public class ObjAudioSource : MonoBehaviour
     public GameObject ObjScaling;
     public TextButton textbutton;
 
+    public GameObject FadeScreen;
+
 
     void Start()
     {
@@ -80,6 +82,10 @@ public class ObjAudioSource : MonoBehaviour
     {
         //ObjScaling.SetActive(false);
         textbutton.meyerActive = false;
+    }
+    public void EnableFadeScreen()
+    {
+        FadeScreen.SetActive(true);
     }
 
     public void talkAnim()
