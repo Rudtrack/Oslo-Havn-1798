@@ -18,6 +18,8 @@ public class TextButton : MonoBehaviour
 
     private Renderer rend;
 
+    public GameObject FadeScreen;
+
     private void Start()
     {
         rend = gameObject.GetComponent<Renderer>();
@@ -39,9 +41,14 @@ public class TextButton : MonoBehaviour
             ObjtoActivate.SetActive(false);
             ObjDoorRoom.SetActive(true);
             motd.B_MeyerOut = false;
+            //DisableFadeScreen();
         }
     }
 
+    public void DisableFadeScreen()
+    {
+        FadeScreen.SetActive(false);
+    }
     public void OnMouseDown()
     {
         meyerActive = true;
