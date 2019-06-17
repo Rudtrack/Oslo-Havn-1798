@@ -106,7 +106,7 @@ AvatarMask:
   - m_Path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Eye_Right_low
     m_Weight: 0
   - m_Path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw
-    m_Weight: 1
+    m_Weight: 0
   - m_Path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Jaw/Jaw_End
     m_Weight: 0
   - m_Path: Con_Master/Con_Hip/Hip/Spine_01/Spine_02/Chest/Neck_01/Neck_02/Head/Spine_End

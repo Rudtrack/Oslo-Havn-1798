@@ -54,7 +54,7 @@ public class MiniManagerScr : MonoBehaviour
     {
         MasterOnCam.SetActive(false);
         EyeContact.SetActive(false);
-        Debug.Log("MasterDisabled(Inside)");
+        //Debug.Log("MasterDisabled(Inside)");
     }
     public void EnableMaster()
     {
@@ -69,16 +69,17 @@ public class MiniManagerScr : MonoBehaviour
         // Syncer lyd med lipsync
         //MeyerAnim.SetTrigger("Jaw_T_Start-Talking");
         MeyerAnim.SetBool("UB_isTalking", true);
+        MeyerAnim.SetTrigger("Jaw_T_Start-Talking");
         //Debug.Log("Meyer is Talking");
     }
     public void UserLeaving()
     {
-        Debug.Log("User is leaving");
+        //Debug.Log("User is leaving");
     }
     public void BackInside()
     {
         MeyerAnim.SetTrigger("T_CloseDoor"); 
-        Debug.Log("On the way back inside");
+        //Debug.Log("On the way back inside");
         meyeroutthedoor.B_MeyerOut = false;
         AudiAnim.SetTrigger("T_Goodbye");
     }
