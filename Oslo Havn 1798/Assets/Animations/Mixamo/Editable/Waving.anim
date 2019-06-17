@@ -106733,7 +106733,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.1666667
+  - time: 2.5833333
     functionName: GoodbyeRestart
     data: 
     objectReferenceParameter: {fileID: 0}
