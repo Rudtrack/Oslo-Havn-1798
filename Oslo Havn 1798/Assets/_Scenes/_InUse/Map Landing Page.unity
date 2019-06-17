@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameInfo: {fileID: 1434238812}
   HamburgerMenu: {fileID: 1305688674}
-  aboutUsPanel: {fileID: 1434238812}
+  aboutUsPanel: {fileID: 1739922769}
 --- !u!1 &663618400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,7 +2859,7 @@ Animator:
   m_GameObject: {fileID: 1332767880}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69528593cc46ee74da0d4250f8ddfcc3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6e8009a9b405f684a964025a4aa41192, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3084,7 +3084,7 @@ RectTransform:
   m_GameObject: {fileID: 1385618414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19748382, y: 0.19748382, z: 6.5827947}
+  m_LocalScale: {x: 0.18, y: 0.19748382, z: 6.5827947}
   m_Children:
   - {fileID: 5295579214882752215}
   - {fileID: 5295579214874961347}
@@ -3997,7 +3997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1635933159
 Transform:
   m_ObjectHideFlags: 0
@@ -5529,6 +5529,28 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1385618414}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1305688674}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1703628770}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
