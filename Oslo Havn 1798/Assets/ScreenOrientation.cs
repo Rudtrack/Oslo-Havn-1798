@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ScreenOrientation : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if(SceneManager.GetActiveScene().buildIndex == 2)
         {
